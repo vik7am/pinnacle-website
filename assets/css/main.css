@@ -103,7 +103,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #585858 15%, #1d1d1d 85%);
+		/*background-image: url("images/overlay.png"), linear-gradient(45deg, #585858 15%, #1d1d1d 85%);*/
+		background-image: url("images/background.png");
+		background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3261,7 +3263,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #000000;
+		background-color: #000983b6;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3345,7 +3347,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(0, 0, 0, 0.95);
+			background-color: #000983e7;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3374,7 +3376,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #00000050;
+		background-color: #0009838f;
 		color: #ffffff;
 		border-radius: 0.25em;
 	}
