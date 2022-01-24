@@ -3258,7 +3258,7 @@ input, select, textarea {
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
-		padding: 1em;
+		padding: 0.5em;
 		background-color: #000000b6;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
@@ -3342,7 +3342,7 @@ input, select, textarea {
 		#nav.alt {
 			position: fixed;
 			top: 0;
-			padding: 0.5em 1em;
+			padding: 0em;
 			background-color: #000000e7;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
@@ -3372,7 +3372,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff11;
+		background-color: #0000007e;
 		color: #ffffff;
 		border-radius: 0.25em;
 	}
